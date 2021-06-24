@@ -1,0 +1,40 @@
+
+html, body {
+  height: 100%;
+	margin: 0; padding: 0;
+}
+body {
+  display : table;
+	width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+html, body, .container {
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+.pageTxt {
+  width: 100%;
+}
+
+textarea.form-control {
+  height: 100%;
+}
+
+textarea {
+  /* width: 80%; */
+  height: 100%;
+  min-height: 70rem;
+  display: block;
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 10%;
+  right: 10%; */
+  /* bottom: 0; */
+}
